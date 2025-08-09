@@ -1,5 +1,5 @@
 {
-  "startTimeUtc": "2025-08-09T20:40:00Z",
+  "startTimeUtc": "2025-08-09T21:40:00Z",
   "endTimeUtc": "2025-08-17T09:38:00Z",
   "targetTotalUsd": 1400000,
   "amountPerMessageUsd": 100,
@@ -10,8 +10,8 @@
   "enforceHardStopAtEnd": false,
   "specialPhase": {
     "enabled": true,
-    "countdownStartUtc": "2025-08-09T20:35:00Z",
-    "presaleStartUtc": "2025-08-09T20:40:00Z",
+    "countdownStartUtc": "2025-08-09T21:35:00Z",
+    "presaleStartUtc": "2025-08-09T21:40:00Z",
     "initialBurstMinutes": 10,
     "initialBurstCount": 50
   }
