@@ -461,8 +461,8 @@ function buildDiscordMessage(nowUtcDate, nextTotalUsd, tokensPerHundred) {
   
   const embed = new EmbedBuilder()
     .setColor(0x00ff00)
-    .setTitle('═════ BBLIP PRESALE [ PHASE 3 ] ═════')
-    .setDescription('🚀 **NEW PURCHASE!**\n\n[🐦 X](https://x.com/BblipProtocol) • [📱 Telegram](https://t.me/BblipProtocol_Annoucements) • [📄 Whitepaper](http://bblip.io/whitepaper) • [💎 Tokenomics](https://bblip.io/tokenomics) • [🚀 Presale](https://www.bblip.io/presale)')
+    .setTitle('BBLIP PRESALE [ PHASE 3 ]')
+    .setDescription('🚀 **NEW PURCHASE!**')
     .addFields(
       { name: '💰 Amount', value: `$100.00 (${tokensText})`, inline: true },
       { name: '📅 Time', value: `${dateLine} UTC`, inline: true },
@@ -472,7 +472,8 @@ function buildDiscordMessage(nowUtcDate, nextTotalUsd, tokensPerHundred) {
       { name: '\u200B', value: '\u200B', inline: true },
       { name: '👥 Spots Filled', value: `${totalInvestors.toLocaleString()} / 14,000`, inline: true },
       { name: '⚡ Remaining', value: spotsRemaining.toLocaleString(), inline: true },
-      { name: '\u200B', value: '\u200B', inline: true }
+      { name: '\u200B', value: '\u200B', inline: true },
+      { name: '🔗 Links', value: '[X](https://x.com/BblipProtocol) • [Telegram](https://t.me/BblipProtocol_Annoucements) • [Whitepaper](http://bblip.io/whitepaper) • [Tokenomics](https://bblip.io/tokenomics) • [Buy Now](https://www.bblip.io/presale)', inline: false }
     )
     .setFooter({ 
       text: 'Bblip Protocol - Crypto to Spendable Currency',
