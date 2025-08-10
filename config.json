@@ -1,6 +1,6 @@
 {
-  "startTimeUtc": "2025-08-10T10:25:00Z",
-  "endTimeUtc": "2025-08-20T12:30:00Z",
+  "startTimeUtc": "2025-08-10T12:00:00Z",
+  "endTimeUtc": "2025-08-20T12:00:00Z",
   "targetTotalUsd": 1400000,
   "amountPerMessageUsd": 100,
   "tokensPerHundred": 714.28,
@@ -10,8 +10,8 @@
   "enforceHardStopAtEnd": false,
   "specialPhase": {
     "enabled": true,
-    "countdownStartUtc": "2025-08-10T10:20:00Z",
-    "presaleStartUtc": "2025-08-10T10:25:00Z",
+    "countdownStartUtc": "2025-08-10T11:55:00Z",
+    "presaleStartUtc": "2025-08-10T12:00:00Z",
     "initialBurstMinutes": 10,
     "initialBurstCount": 50
   }
